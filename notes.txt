@@ -1,0 +1,68 @@
+
+
+class ABC{
+
+    string name;
+    string email;
+
+
+}
+
+class Test extends ABC {
+    string city;
+    int salary;
+}
+
+s = new ABC() =====> object s ---> name, email are included
+
+name, email, city, salary
+##########################################################################
+
+
+class Parent:
+    def __init__(self, fname):
+        self.fname =fname
+
+
+class Child(Parent):
+    pass
+
+
+c= Child('Ahmed')
+###############################################
+class Parent:
+    def __init__(self):
+        print('----')
+
+
+class Child(Parent):
+    pass
+
+
+c= Child('Ahmed')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
